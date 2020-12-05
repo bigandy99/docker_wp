@@ -6,10 +6,10 @@ Steps to setup:
 
 0. Install Docker Desktop and other basic stuff
 1. Clone this repo
-2. Copy the contents into a new project repo/directory/whatever (i.e. don't push your new site back to this boilerplate!)
+2. Copy the contents into a new project repo/directory/whatever (i.e. don't push your new site back to this boilerplate!) and don't forget the hidden .gitignore (or make your own!)
 3. Make sure your local directory (or a parent directory) is listed in your Docker Desktop "File Sharing" list
 4. Run "docker-compose up -d" (from your new directory) to build and start your containers
-5. Go to http://localhost to see WP running
+5. Go to http://localhost to see WP running (takes a little bit of time to come up, even after containers say they're good, so just chill for a sec)
 6. Login to WP-Admin at http://localhost/wp-admin using u/p user/bitnami
 7. Run "docker-compose stop" to stop your containers from running in the background when you're not using them as stealing all your resources and making you wonder why your machine is running slow
 
