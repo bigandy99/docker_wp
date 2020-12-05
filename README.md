@@ -5,11 +5,12 @@ Get going on WP docker suuuuuuper fast.....
 Steps to setup:
 0. Install Docker Desktop and other basic stuff
 1. Clone this repo
-2. Make sure your local dev directory (or a parent directory) is listed in your Docker Desktop "File Sharing" list
-3. Run "docker-compose up -d" to build and start your containers
-4. Go to http://localhost to see WP running
-5. Login to WP-Admin at http://localhost/wp-admin using u/p user/bitnami
-6. Run "docker-compose stop" to stop your containers from running in the background when you're not using them as stealing all your resources and making you wonder why your machine is running slow
+2. Copy the contents into your repo (i.e. don't push your new site back to this boilerplate!)
+3. Make sure your local dev directory (or a parent directory) is listed in your Docker Desktop "File Sharing" list
+4. Run "docker-compose up -d" to build and start your containers
+5. Go to http://localhost to see WP running
+6. Login to WP-Admin at http://localhost/wp-admin using u/p user/bitnami
+7. Run "docker-compose stop" to stop your containers from running in the background when you're not using them as stealing all your resources and making you wonder why your machine is running slow
 
 
 More notes:
